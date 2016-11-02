@@ -1,0 +1,168 @@
+body {
+    margin:0;
+    background-color: #424242;
+    height: 100%;
+    font-family: roboto;
+}
+.main {
+    font-size: 200%;
+    margin: 20px;
+    width: 80%;
+    height: 100%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E0E0E0;
+}
+
+#projects_main {
+    font-size: 150%;
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    text-align: left;
+    background-color: #E0E0E0;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+#mainpagecontainer {
+    position: relative;
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    backgroud-color: #E0E0E0;
+}
+
+#in_image {
+    position: absolute;
+    font-size: 60%;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 20px;
+    width: 27%;
+    height: 650px;
+    float: left;
+}
+.bio_main {
+    font-size: 150%;
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    text-align: left;
+    background-color: #E0E0E0;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+.main_contact {
+    font-size: 200%;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    background-color: #E0E0E0;
+    padding-left: 30px;
+    padding-right: auto;
+    padding-bottom: 15px;
+}
+
+#foomg {
+    position: absolute;
+    width: 95%;
+    height: auto;
+}
+
+content {
+    display: block;
+    padding: 30px;
+    font-size: 75%;
+}
+
+.ProUl {
+    background-color: #E0E0E0;
+    width: 95%;
+    list-style-type: none;
+    padding: 10px;
+    padding-top: 0;
+    margin 0 auto;
+}
+
+.ProUl a {
+    color: red;
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+.ProUl a:hover {
+    background-color: #E0E0E0;
+}
+.ProUl a:active {
+    background-color: #E0E0E0;
+}
+.ProjectListElement {
+    background-color: white;    
+    margin-top: 10px;
+    position: relative;
+    margin 0 auto;
+    outline: black;
+    width: 95%;
+    height: 200px;
+    padding: 10px;
+}
+.ProExIm {
+    float: left;
+    height: 100%;
+}
+.ProText {
+    position: absolute;
+    left: 350px;
+    width: 650px;
+    background-color: white;
+    float: left;
+    padding-left: 20px;
+    padding-right: 5px;
+    height: 92%;
+}
+.ProTitle {
+    font-size: 100%;
+}
+.ProDesc {
+    padding-top: 20px;
+    font-size: 75%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #303f9f;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #1a237e;
+}
+
+.active {
+    background-color: #0d47a1;
+}
