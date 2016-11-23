@@ -1,0 +1,3 @@
+[submodule "CryptoVis"]
+	path = CryptoVis
+	url = https://github.com/pipsqueaker/CryptoVis
